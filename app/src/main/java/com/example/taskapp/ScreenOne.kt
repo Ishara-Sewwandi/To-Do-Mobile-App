@@ -3,6 +3,7 @@ package com.example.taskapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
 import android.widget.ImageView
 
 class ScreenOne : AppCompatActivity() {
@@ -11,13 +12,11 @@ class ScreenOne : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_screen_one)
         // Initialize medlogoLoad
-        logoLoad = findViewById(R.id.logoLod)
-        logoLoad.alpha = 0f
-        logoLoad.animate().setDuration(2000).alpha(1f).withEndAction {
-            val i = Intent(this, MainActivity::class.java) // Replace NextActivity with the actual name of your next activity
-            startActivity(i)
-            overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
+
+        Handler().postDelayed({
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
             finish()
-        }
+        }, 3000)  // 3000 milliseconds delay (3 seconds)
     }
 }

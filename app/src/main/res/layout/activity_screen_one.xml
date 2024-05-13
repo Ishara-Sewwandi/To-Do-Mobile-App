@@ -4,11 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ScreenOne">
-    <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:src="@drawable/logo"
-        android:layout_centerInParent="true"
-        android:id="@+id/logoLod"/>
+    tools:context=".ScreenOne"
+    android:background="@drawable/img1">
+
+
 </RelativeLayout>

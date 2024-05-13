@@ -23,6 +23,7 @@
             android:layout_marginTop="85dp"
             android:text="@string/your_task_name"
             />
+
         <TextView
             android:id="@+id/editNoteHeading"
             android:layout_width="wrap_content"
@@ -89,6 +90,8 @@
             android:layout_alignParentBottom="true"
             android:layout_alignParentEnd="true"
             android:contentDescription="editFab" />
+
+
 
     </RelativeLayout>
 </layout>

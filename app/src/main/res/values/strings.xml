@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">TaskApp</string>
-    <!-- TODO: Remove or change this placeholder text -->
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="add_note">Add Note.</string>
     <string name="enter_the_title">Enter the title</string>
@@ -12,9 +12,9 @@
     <string name="description">Description</string>
     <string name="task_title">Task Title</string>
     <string name="enter_the_your_task_name">Enter The Your Task Name</string>
-    <string name="enter_small_description_about_your_task">Enter Small Description About Your Task</string>
-    <string name="enter_your_task_name">Enter Your Task Name</string>
-    <string name="enter_small_description">Enter Small Description</string>
+    <string name="enter_small_description_about_your_task">Enter  Description About Your Task</string>
+    <string name="enter_your_task_name">Enter Your Task</string>
+    <string name="enter_small_description">Enter Description</string>
     <string name="your_task_name">Your Task Name</string>
     <string name="your_task_details">Your Task Details</string>
 </resources>
